@@ -9,7 +9,6 @@ require'nvim-treesitter.configs'.setup{
    highlight = {
       enable = true,
       disable = {
-         'rust',
          'latex',
       },
       additional_vim_regex_highlighting = false,
