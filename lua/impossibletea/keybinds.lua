@@ -10,6 +10,7 @@ vim.keymap.set('n', '<leader>y', '\"+y')
 vim.keymap.set('v', '<leader>y', '\"+y')
 vim.keymap.set('n', '<leader>d', '\"+d')
 vim.keymap.set('v', '<leader>d', '\"+d')
+vim.keymap.set('n', '<leader>ls' , '<cmd>set list!<cr>')
 
 -- CHADtree
 vim.keymap.set('n', '<leader>e', vim.cmd.CHADopen)
@@ -33,7 +34,6 @@ lsp_attach = function(client, bufnr)
       vim.lsp.buf.format { async = true }
    end, bufopts)
 	vim.keymap.set('n', '<leader>ll' , require('lsp_lines').toggle)
-	vim.keymap.set('n', '<leader>ls' , '<cmd>set list!<cr>')
 end
 
 -- Telescope
