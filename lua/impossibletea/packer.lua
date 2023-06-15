@@ -16,7 +16,7 @@ return require('packer').startup{
       use 'nvim-treesitter/nvim-treesitter-context'
       use 'jeffkreeftmeijer/vim-dim'
       use 'lervag/vimtex'
-      use 'chrisbra/csv.vim'
+      use 'mechatroner/rainbow_csv'
       use 'mtdl9/vim-log-highlighting'
    end,
    config = {
