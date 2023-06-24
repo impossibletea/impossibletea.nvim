@@ -18,6 +18,7 @@ return require('packer').startup{
       use 'lervag/vimtex'
       use 'mechatroner/rainbow_csv'
       use 'mtdl9/vim-log-highlighting'
+      use 'Jorengarenar/COBOl.vim'
    end,
    config = {
       git = {
