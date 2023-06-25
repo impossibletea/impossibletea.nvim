@@ -19,6 +19,7 @@ return require('packer').startup{
       use 'mechatroner/rainbow_csv'
       use 'mtdl9/vim-log-highlighting'
       use 'Jorengarenar/COBOl.vim'
+      use 'tpope/vim-abolish'
    end,
    config = {
       git = {
