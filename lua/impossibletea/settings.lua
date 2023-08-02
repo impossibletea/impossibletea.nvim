@@ -18,6 +18,8 @@ vim.opt.udf = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+vim.opt.clipboard = 'unnamed'
+
 -- COQ
 vim.g.coq_settings = {
   ['auto_start'] = 'shut-up',
