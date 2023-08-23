@@ -35,4 +35,3 @@ vim.g.chadtree_settings = {
     },
   },
 }
-

@@ -1,7 +1,13 @@
 require'nvim-treesitter.configs'.setup{
    ensure_installed = {
-      'lua',
-      'bash',
+		 'diff',
+		 'git_config',
+		 'git_rebase',
+		 'gitattributes',
+		 'gitcommit',
+		 'gitignore',
+		 'vimdoc',
+		 'lua',
    },
    highlight = {
       enable = true,
