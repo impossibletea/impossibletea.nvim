@@ -7,7 +7,7 @@ vim.opt.textwidth = 80
 vim.opt.cursorline = true
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.listchars = 'tab:-->,lead:.,trail:.'
+vim.opt.listchars = 'tab:|_,lead:.,trail:.'
 
 vim.opt.breakindent = true
 vim.opt.formatoptions = 'cro/qj'
@@ -19,11 +19,6 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.opt.clipboard = 'unnamed'
-
--- COQ
-vim.g.coq_settings = {
-  ['auto_start'] = 'shut-up',
-}
 
 -- CHADtree
 vim.g.chadtree_settings = {
