@@ -13,6 +13,8 @@ return require('packer').startup{
       use 'mtdl9/vim-log-highlighting'
       use 'Jorengarenar/COBOl.vim'
       use 'tpope/vim-abolish'
+			use 'vim-pandoc/vim-pandoc'
+			use 'vim-pandoc/vim-pandoc-syntax'
    end,
    config = {
       git = {
