@@ -22,16 +22,16 @@ vim.opt.clipboard = 'unnamed'
 
 -- CHADtree
 vim.g.chadtree_settings = {
-  ['options'] = {
-    ['session'] = false,
-  },
-  ['ignore'] = {
-    ['name_glob'] = {'.*',},
-  },
-  ['view'] = {
-    ['window_options'] = {
-      ['number'] = true,
-      ['relativenumber'] = true,
-    },
-  },
+	['options'] = {
+		['session'] = false,
+	},
+	['ignore'] = {
+		['name_glob'] = {'.*',},
+	},
+	['view'] = {
+		['window_options'] = {
+			['number'] = true,
+			['relativenumber'] = true,
+		},
+	},
 }
