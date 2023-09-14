@@ -6,15 +6,12 @@ return require('packer').startup{
 		use 'nvim-lua/plenary.nvim'
 		use 'nvim-telescope/telescope.nvim'
 		use 'noahfrederick/vim-noctu'
-		use 'jeffkreeftmeijer/vim-dim'
 		use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 		use 'nvim-treesitter/nvim-treesitter-context'
 		use 'mechatroner/rainbow_csv'
 		use 'mtdl9/vim-log-highlighting'
 		use 'Jorengarenar/COBOl.vim'
 		use 'tpope/vim-abolish'
-		use 'vim-pandoc/vim-pandoc'
-		use 'vim-pandoc/vim-pandoc-syntax'
 		use 'stefanvanburen/rams.vim'
 	end,
 	config = {
