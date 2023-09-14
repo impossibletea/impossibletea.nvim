@@ -1,4 +1,4 @@
-vim.cmd.colorscheme('noctu')
+vim.cmd.colorscheme('rams')
 vim.opt.colorcolumn = '80'
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4

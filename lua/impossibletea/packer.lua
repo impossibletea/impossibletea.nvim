@@ -15,6 +15,7 @@ return require('packer').startup{
 		use 'tpope/vim-abolish'
 		use 'vim-pandoc/vim-pandoc'
 		use 'vim-pandoc/vim-pandoc-syntax'
+		use 'stefanvanburen/rams.vim'
 	end,
 	config = {
 		git = {
