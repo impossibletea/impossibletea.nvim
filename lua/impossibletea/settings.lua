@@ -28,10 +28,4 @@ vim.g.chadtree_settings = {
 	['ignore'] = {
 		['name_glob'] = {'.*',},
 	},
-	['view'] = {
-		['window_options'] = {
-			['number'] = true,
-			['relativenumber'] = true,
-		},
-	},
 }
