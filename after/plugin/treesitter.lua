@@ -13,6 +13,20 @@ require'nvim-treesitter.configs'.setup{
 		enable = true,
 		additional_vim_regex_highlighting = false,
 	},
+	textobjects = {
+		select = {
+			enable = true,
+			keymaps = {
+				["af"] = "@function.outer",
+				["if"] = "@function.inner",
+				["as"] = "@class.outer",
+				["is"] = "@class.inner",
+				["ap"] = "@parameter.outer",
+				["ip"] = "@parameter.inner",
+			},
+			include_surrounding_whitespace = true,
+		},
+	},
 }
 
 require'treesitter-context'.setup{
