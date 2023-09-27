@@ -21,8 +21,6 @@ require'nvim-treesitter.configs'.setup{
 				["if"] = "@function.inner",
 				["as"] = "@class.outer",
 				["is"] = "@class.inner",
-				["ap"] = "@parameter.outer",
-				["ip"] = "@parameter.inner",
 			},
 			include_surrounding_whitespace = true,
 		},
