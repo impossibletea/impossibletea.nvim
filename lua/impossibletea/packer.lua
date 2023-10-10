@@ -8,7 +8,6 @@ return require('packer').startup{
 		use 'noahfrederick/vim-noctu'
 		use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 		use 'nvim-treesitter/nvim-treesitter-context'
-		use 'nvim-treesitter/nvim-treesitter-textobjects'
 		use 'mechatroner/rainbow_csv'
 		use 'mtdl9/vim-log-highlighting'
 		use 'Jorengarenar/COBOl.vim'
