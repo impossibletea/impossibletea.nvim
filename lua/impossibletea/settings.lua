@@ -17,6 +17,7 @@ vim.opt.udf = true
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+vim.opt.wildmode = 'longest:full'
 
 vim.opt.clipboard = 'unnamed'
 vim.opt.grepprg = 'rg -n'
