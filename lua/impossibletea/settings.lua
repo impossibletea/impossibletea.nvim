@@ -19,6 +19,7 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.opt.clipboard = 'unnamed'
+vim.opt.grepprg = 'rg -n'
 
 -- CHADtree
 vim.g.chadtree_settings = {
