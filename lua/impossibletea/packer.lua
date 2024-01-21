@@ -5,7 +5,6 @@ return require('packer').startup{
 		use 'tpope/vim-fugitive'
 		use 'nvim-lua/plenary.nvim'
 		use 'nvim-telescope/telescope.nvim'
-		use 'noahfrederick/vim-noctu'
 		use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 		use 'nvim-treesitter/nvim-treesitter-context'
 		use 'mechatroner/rainbow_csv'
